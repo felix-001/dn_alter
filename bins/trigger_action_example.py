@@ -42,7 +42,7 @@ class TriggerActionExample(OnDemandTriggerAction):
             evt_time = events[0].eventTime
             alertDescription = events[0].alertDescription
 
-        content = "告警: " + event_name + "\n"
+        content = "告警事件: " + event_name + "\n"
         content += "事件描述: " + alertDescription + "\n"
         content += "触发时间: " + evt_time + "\n"
         content += "事件链接: " + "http://qvs-pdr.qnlinking.com/alert/events/" + evt_id + "\n"
@@ -56,7 +56,7 @@ class TriggerActionExample(OnDemandTriggerAction):
             url += "&start=" + start
             end_ms = int(round(time.time() * 1000))
             url += "&end=" + str(end_ms)
-            content += "事件日志链接: " + url + "\n"
+            content += "日志链接: " + url + "\n"
         # do send events to other platform
         self.send_msg(content)
         return content
