@@ -1,0 +1,4 @@
+[console_scripts]
+create_pandora_app = pdr_python_sdk.tools.create:create_pandora_app
+upload_app = pdr_python_sdk.tools.upload:upload
+

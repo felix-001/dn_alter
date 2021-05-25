@@ -1,0 +1,6 @@
+{
+  "name": "dn_altert_trigger",
+  "displayName": "pdr告警",
+  "env": "python3",
+  "filename": "trigger_action_example.py"
+}

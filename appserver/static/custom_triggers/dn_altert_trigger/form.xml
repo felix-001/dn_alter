@@ -1,0 +1,7 @@
+<input type="dropdown" field="align">
+  <label>对齐方式</label>
+  <initial-value>left</initial-value>
+  <choice value="left">向左</choice>
+  <choice value="center">居中</choice>
+  <choice value="right">向右</choice>
+</input>

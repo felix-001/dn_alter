@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pdr-python-sdk
+Version: 1.0.18
+Summary: pandora python sdk, simple to integrate with pandora
+Home-page: https://github.com/qiniu/pandora-python-sdk.v2
+Author: qiniu
+Author-email: pandora@qiniu.com
+License: Apache-2.0
+Project-URL: Documentation, https://developer.qiniu.com/express
+Project-URL: Source, https://github.com/qiniu/pandora-python-sdk.v2
+Project-URL: Tracker, https://github.com/qiniu/pandora-python-sdk.v2/issues
+Keywords: qiniu,pandora,sdk
+Platform: any
+Requires-Dist: urllib3
+Requires-Dist: pyyaml
+Requires-Dist: GitPython
+Requires-Dist: pandas
+
+UNKNOWN
+
+

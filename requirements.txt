@@ -1,0 +1,13 @@
+pdr-python-sdk==1.0.18
+pytest
+urllib3
+requests
+chardet
+idna
+six
+smmap
+gitdb
+GitPython
+python-dateutil
+pytz
+pyYAML
