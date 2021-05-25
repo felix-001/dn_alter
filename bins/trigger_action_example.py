@@ -52,7 +52,7 @@ class TriggerActionExample(OnDemandTriggerAction):
             url = "http://qvs-pdr.qnlinking.com/logdb/search/log?dataLimit=-1&mode=smart&preview=true"
             url += "&" + query
             timeArray = time.strptime(evt_time, "%Y-%m-%d %H:%M:%S")
-            start = str(int(time.mktime(timeArray))*1000)
+            start = str(int(time.mktime(timeArray)-1)*1000)
             url += "&start=" + start
             end_ms = int(round(time.time() * 1000))
             url += "&end=" + str(end_ms)
