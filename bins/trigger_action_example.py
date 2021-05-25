@@ -25,7 +25,7 @@ class TriggerActionExample(OnDemandTriggerAction):
 
     def send_msg(self, content):
         """发送指定信息到微信机器人"""
-        data = json.dumps({"msgtype": "text", "text": {"content": content, "mentioned_list":["@all"]}})
+        data = json.dumps({"msgtype": "text", "text": {"content": content}})
         r = requests.post(wx_url, data, auth=('Content-Type', 'application/json'))
 
     def do_handle_events(self, events):
